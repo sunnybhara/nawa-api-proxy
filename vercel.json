@@ -8,7 +8,10 @@
     { "source": "/v1/keys", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-keys" },
     { "source": "/v1/calibration", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-calibration" },
     { "source": "/v1/webhooks", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-webhook-manage" },
-    { "source": "/v1/stripe/webhook", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-stripe-webhook" }
+    { "source": "/v1/stripe/webhook", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-stripe-webhook" },
+    { "source": "/v1/usage", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-usage" },
+    { "source": "/v1/analytics", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-analytics" },
+    { "source": "/v1/comments", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-comments" }
   ],
   "headers": [
     {
