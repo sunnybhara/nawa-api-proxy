@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    { "source": "/v1/classify", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-classify" },
+    { "source": "/v1/rubric/classify", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-rubric-classify" },
+    { "source": "/v1/comments/:path*/reply", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-comments-reply" },
+    { "source": "/v1/feedback", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-feedback" },
+    { "source": "/v1/health", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-health" },
+    { "source": "/v1/keys", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-keys" },
+    { "source": "/v1/calibration", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-calibration" },
+    { "source": "/v1/webhooks", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-webhook-manage" },
+    { "source": "/v1/stripe/webhook", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-stripe-webhook" }
+  ],
+  "headers": [
+    {
+      "source": "/v1/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, PUT, DELETE, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Authorization, Content-Type, X-Request-Id, Idempotency-Key, x-csrf-token, apikey, x-client-info" },
+        { "key": "Access-Control-Expose-Headers", "value": "X-Request-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-NAWA-Cache, X-NAWA-Provider, X-NAWA-Environment, X-NAWA-Balance, X-NAWA-Calibration-Version" }
+      ]
+    }
+  ]
+}
