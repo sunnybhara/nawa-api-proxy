@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/v1/classify", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-classify" },
     { "source": "/v1/translate", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-translate" },
+    { "source": "/v1/detect", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-detect" },
     { "source": "/v1/rubric/classify", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-rubric-classify" },
     { "source": "/v1/comments/:path*/reply", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-comments-reply" },
     { "source": "/v1/feedback", "destination": "https://xemcegxkfkvkgmehllix.supabase.co/functions/v1/api-v1-feedback" },
