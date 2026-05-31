@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/nawa.svg" width="160" alt="NAWA" />
+<img src="assets/nawa-icon.png" width="120" alt="NAWA" />
 
 # NAWA API · Edge Proxy
 

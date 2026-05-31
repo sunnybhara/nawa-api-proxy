@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" width="160" height="46" role="img" aria-label="NAWA">
-  <defs>
-    <linearGradient id="gN" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#059669"/>
-      <stop offset="1" stop-color="#0891B2"/>
-    </linearGradient>
-  </defs>
-  <circle cx="22" cy="32" r="14" fill="url(#gN)"/>
-  <circle cx="22" cy="32" r="6" fill="#0A0F14"/>
-  <text x="50" y="42" font-family="-apple-system,Inter,Arial,sans-serif" font-weight="800" font-size="32" fill="#0A0F14" letter-spacing="-1.2">NAWA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="220" height="56" role="img" aria-label="NAWA">
+  <!-- icon -->
+  <g transform="translate(0,8)">
+    <rect width="64" height="64" rx="14" fill="#0E0E10"/>
+    <rect x="14" y="14" width="12" height="36" rx="6" fill="#FFFFFF" transform="rotate(15 20 32)"/>
+    <rect x="39" y="14" width="12" height="36" rx="6" fill="#4ADE80" transform="rotate(15 45 32)"/>
+  </g>
+  <!-- wordmark (dark for light backgrounds) -->
+  <text x="80" y="54" font-family="-apple-system,Inter,Arial,sans-serif"
+        font-weight="800" font-size="36" fill="#0a0a0a" letter-spacing="-1">NAWA</text>
 </svg>
